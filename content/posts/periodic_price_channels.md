@@ -4,7 +4,7 @@ date: 2022-08-27T19:15:09-05:00
 draft: false
 ---
 
-The price channel is a common pattern used by traders to find sniper entries and exits in trending markets. The biggest moves with these channels comes at breakouts at the channel lines by using the momentum of stop losses and market order executions. Smart traders who catch these breakouts are able to secure quick anc concise trades that maximize their profits. As I was doing some technical analysis for Ethereum, I noticed an additional layer of patterns that formed by drawing out multiple price channels equidistant from each other in bullish and bearish directions, and is something I call periodic price channels. These can be seen from small to large timeframes across many different markets, but I will focus on Ethereum here.
+The price channel is a common pattern used by traders to find sniper entries and exits in trending markets. The biggest moves with these channels comes at breakouts at the channel lines by using the momentum of stop losses and market order executions. Smart traders who catch these breakouts are able to secure quick and concise trades that maximize their profits. As I was doing some technical analysis for Ethereum, I noticed an additional layer of patterns that formed by drawing out multiple price channels equidistant from each other in bullish and bearish directions, and is something I call periodic price channels. These can be seen from small to large timeframes across many different markets, but I will focus on Ethereum here.
 
 Here, we can see the pattern being formed on the weekly time frame:
 
