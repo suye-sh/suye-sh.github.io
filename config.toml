@@ -1,0 +1,79 @@
+baseURL = 'https://suye-sh.github.io'
+languageCode = 'en-us'
+title = 'suye.sh'
+theme = 'listed-mod'
+
+disableKinds = ["section", "categories", "tags"]
+disqusShortname = ""
+pygmentsCodeFences = false
+pygmentsUseClasses = false
+paginate = 9999
+minify = true
+disableHugoGeneratorInject = true
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+[Author]
+  name = "suyesh"
+
+
+[frontmatter]
+  date  = [":filename", ":default"]
+  author = ""
+  github = "https://github.com/suye-sh"
+  facebook = ""
+  og_image = ""
+  sitename = "suye.sh"
+  twitter = "https://twitter.com/suye_sh"
+
+[permalinks]
+  posts = "/:year/:month/:day/:filename"
+  pages = "/:slug"
+  photos = "/:year/:month/:day/:filename"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "feed"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name       = "suye.sh"
+    url        = "/"
+    weight     = -111
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/content/pages/about.md"
+    weight     = -20
