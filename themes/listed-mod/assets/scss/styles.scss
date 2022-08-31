@@ -13,6 +13,7 @@ body {
     //background: hsla(93, 0%, 96%, 1.00);
     color: #000;
     //background-color: #f5f5f5;
+    max-width: 100%;
 }
 
 .skip-link {
@@ -51,8 +52,6 @@ header {
 
 .link {
 	//white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -111,6 +110,7 @@ ul, ol {
     line-height: 2;
     list-style-type: none;
     padding-left: 0;
+    overflow: hidden;
 }
 
 .list li {

@@ -81,3 +81,9 @@ disableHugoGeneratorInject = true
     name       = "About"
     url        = "/content/pages/about.md"
     weight     = -20
+
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/content/pages/contact.md"
+    weight     = -20
