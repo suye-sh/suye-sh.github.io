@@ -44,9 +44,9 @@ disableHugoGeneratorInject = true
   twitter = "https://twitter.com/suye_sh"
 
 [permalinks]
-  posts = "/:year/:month/:day/:filename"
+  posts = "/:filename"
   pages = "/:slug"
-  photos = "/:year/:month/:day/:filename"
+  photos = "/:filename"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -64,6 +64,10 @@ disableHugoGeneratorInject = true
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
 
 [menu]
   [[menu.main]]
